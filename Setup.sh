@@ -66,8 +66,8 @@ dpkg -i linux-headers-*-egoist-cloud_*.deb
 dpkg -i linux-image-*-egoist-cloud_*.deb
 
 # 修改 SSH 端口为 9399
-echo "修改 SSH 端口为 9399..."
-sed -i 's/#Port 22/Port 9399/' /etc/ssh/sshd_config
-systemctl restart sshd
+# echo "修改 SSH 端口为 9399..."
+# sed -i 's/#Port 22/Port 9399/' /etc/ssh/sshd_config
+# systemctl restart sshd
 
 echo "所有步骤完成！"
